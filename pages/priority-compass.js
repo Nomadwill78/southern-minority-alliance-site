@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar';
 import Head from 'next/head';
 import styles from '../styles/PriorityCompass.module.css';
 
@@ -9,7 +10,8 @@ export default function PriorityCompass() {
         <meta name="description" content="Explore neighborhood-level economic data for Memphis and help set the community agenda for closing the racial wealth gap." />
       </Head>
 
-      <main className={styles.page}>
+<Navbar />
+              <main className={styles.page}>
         {/* Hero Banner */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
