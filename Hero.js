@@ -1,9 +1,19 @@
 export default function Hero() {
   return (
-    <section style={{padding:'100px 20px',textAlign:'center'}}>
-      <h1>Advancing Economic Equity</h1>
-      <p>Connecting communities to opportunity.</p>
-      <a href="/learners">Apply Now</a>
+    <section className="hero container">
+      <div>
+        <h1>Building Economic Power in the South</h1>
+        <p>
+          Access capital, workforce training, and pathways to long-term economic mobility.
+        </p>
+        <button className="primary">Apply Now</button>
+      </div>
+
+      <img
+        src="/assets/hero.png"
+        alt="Community impact"
+        style={{ width: "45%", borderRadius: "8px" }}
+      />
     </section>
   );
 }
