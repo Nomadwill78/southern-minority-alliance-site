@@ -1,0 +1,41 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Card from "../components/Card";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+
+      <section className="section container">
+        <h2>What We Do</h2>
+
+        <div className="card-grid">
+          <Card title="Business Acceleration" text="Capital and consulting for minority entrepreneurs." />
+          <Card title="Workforce Training" text="Programs aligned with real employment pathways." />
+          <Card title="Access to Capital" text="Connecting businesses to funding and resources." />
+          <Card title="Policy & Advocacy" text="Driving systemic economic change." />
+        </div>
+      </section>
+
+      <section className="section container">
+        <h2>Impact</h2>
+        <div className="metrics">
+          <div>
+            <h2>$10M+</h2>
+            <p>Capital Deployed</p>
+          </div>
+          <div>
+            <h2>1,000+</h2>
+            <p>Jobs Created</p>
+          </div>
+          <div>
+            <h2>500+</h2>
+            <p>Businesses Supported</p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
