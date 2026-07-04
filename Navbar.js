@@ -7,6 +7,7 @@ export default function Navbar() {
         <a href="/learners">Learners</a>
         <a href="/impact">Impact</a>
         <a href="/contact">Contact</a>
+                <a href="/priority-compass">Community Data</a>
       </div>
       <a href="/learners" className="primary">Apply</a>
     </nav>
